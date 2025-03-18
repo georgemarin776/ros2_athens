@@ -1,0 +1,13 @@
+CMake Warning (dev) at CMakeLists.txt:27:
+  Syntax Warning in cmake code at column 24
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+PROJECT NAME:,first_interfaces
+CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:59 (message):
+  rosidl_generate_interfaces() called without any interface files
+Call Stack (most recent call first):
+  CMakeLists.txt:29 (rosidl_generate_interfaces)
+
+

@@ -1,7 +1,7 @@
-# Import the ROS2 Python client library
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import String  # Import the String message type
+from std_msgs.msg import String
+
 
 class MinimalPubSub(Node):
     def __init__(self):

@@ -1,0 +1,24 @@
+[0.026s] Invoking command in '/home/athens/ros2_athens_ws/build/first_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athens/ros2_athens_ws/install/first_package:/home/athens/ros2_ws/install/stm_visualization_node:/home/athens/ros2_ws/install/stm_setup:/home/athens/ros2_ws/install/stm_serial_node:/home/athens/ros2_ws/install/stm_control_node:/opt/ros/foxy /usr/bin/cmake /home/athens/ros2_athens_ws/src/first_interfaces -DCMAKE_INSTALL_PREFIX=/home/athens/ros2_athens_ws/install/first_interfaces
+[0.037s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.037s] -- Found ament_cmake_core: 0.9.12 (/opt/ros/foxy/share/ament_cmake_core/cmake)
+[0.065s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.272s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.275s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.479s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.505s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.537s] PROJECTNAME=first_interfaces
+[0.537s] msg_files=msg/FirstMessage.msg
+[0.537s] interfaces=first_interfacesmsg/FirstMessage.msg
+[0.571s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.723s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[0.724s]   Packages installing interfaces must include
+[0.725s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.725s]   package.xml
+[0.726s] Call Stack (most recent call first):
+[0.728s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[0.728s] 
+[0.728s] 
+[0.729s] -- Configuring incomplete, errors occurred!
+[0.730s] See also "/home/athens/ros2_athens_ws/build/first_interfaces/CMakeFiles/CMakeOutput.log".
+[0.735s] Invoked command in '/home/athens/ros2_athens_ws/build/first_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athens/ros2_athens_ws/install/first_package:/home/athens/ros2_ws/install/stm_visualization_node:/home/athens/ros2_ws/install/stm_setup:/home/athens/ros2_ws/install/stm_serial_node:/home/athens/ros2_ws/install/stm_control_node:/opt/ros/foxy /usr/bin/cmake /home/athens/ros2_athens_ws/src/first_interfaces -DCMAKE_INSTALL_PREFIX=/home/athens/ros2_athens_ws/install/first_interfaces

@@ -1,0 +1,3 @@
+PROJECTNAME=first_interfaces
+msg_files=msg/FirstMessage.msg
+interfaces=first_interfacesmsg/FirstMessage.msg

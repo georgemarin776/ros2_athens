@@ -9,6 +9,8 @@ setup.py
 ../../build/first_package/first_package.egg-info/top_level.txt
 ../../build/first_package/first_package.egg-info/zip-safe
 first_package/__init__.py
+first_package/custom_message_pubsub.py
+first_package/first_message_pubsub.py
 first_package/simple_publisher.py
 first_package/simple_pubsub.py
 first_package/simple_subscriber.py

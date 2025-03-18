@@ -1,0 +1,15 @@
+[0.026s] Invoking command in '/home/athens/ros2_athens_ws/build/first_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athens/ros2_athens_ws/install/first_package:/home/athens/ros2_ws/install/stm_visualization_node:/home/athens/ros2_ws/install/stm_setup:/home/athens/ros2_ws/install/stm_serial_node:/home/athens/ros2_ws/install/stm_control_node:/opt/ros/foxy /usr/bin/cmake --build /home/athens/ros2_athens_ws/build/first_interfaces -- -j6 -l6
+[0.140s] [ 12%] Built target first_interfaces__rosidl_generator_c
+[0.140s] [  9%] Built target first_interfaces__cpp
+[0.188s] [ 25%] Built target first_interfaces__rosidl_typesupport_introspection_cpp
+[0.188s] [ 32%] Built target first_interfaces__rosidl_typesupport_introspection_c
+[0.198s] [ 41%] Built target first_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.200s] [ 51%] Built target first_interfaces__rosidl_typesupport_c
+[0.207s] [ 61%] Built target first_interfaces__rosidl_typesupport_cpp
+[0.252s] [ 70%] Built target first_interfaces__rosidl_typesupport_fastrtps_c
+[0.282s] [ 70%] Built target first_interfaces
+[0.311s] [ 74%] Built target first_interfaces__py
+[0.339s] [ 80%] Built target first_interfaces__python
+[0.373s] [ 87%] Built target first_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.373s] [ 93%] Built target first_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.396s] [100%] Built target first_interfaces__rosidl_typesupport_c__pyext

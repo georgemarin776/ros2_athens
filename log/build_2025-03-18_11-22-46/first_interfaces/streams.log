@@ -1,0 +1,43 @@
+[0.156s] Invoking command in '/home/athens/ros2_athens_ws/build/first_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athens/ros2_athens_ws/install/first_package:/home/athens/ros2_ws/install/stm_visualization_node:/home/athens/ros2_ws/install/stm_setup:/home/athens/ros2_ws/install/stm_serial_node:/home/athens/ros2_ws/install/stm_control_node:/opt/ros/foxy /usr/bin/cmake /home/athens/ros2_athens_ws/src/first_interfaces -DCMAKE_INSTALL_PREFIX=/home/athens/ros2_athens_ws/install/first_interfaces
+[0.363s] CMake Error at CMakeLists.txt:45:
+[0.363s]   Parse error.  Function missing ending ")".  Instead found unterminated
+[0.363s]   string with text "msg/first_message.msg
+[0.363s] 
+[0.363s]   )
+[0.363s] 
+[0.364s]   
+[0.364s] 
+[0.364s]   rosidl_generate_interfaces(${$PROJECT_NAME}
+[0.364s] 
+[0.364s]     ${msg_files}
+[0.364s] 
+[0.364s]   )
+[0.364s] 
+[0.364s]   
+[0.364s] 
+[0.364s]   if(BUILD_TESTING)
+[0.365s] 
+[0.366s]     find_package(ament_lint_auto REQUIRED)
+[0.366s]     # the following line skips the linter which checks for copyrights
+[0.366s]     # uncomment the line when a copyright and license is not present in all source files
+[0.366s]     #set(ament_cmake_copyright_FOUND TRUE)
+[0.367s]     # the following line skips cpplint (only works in a git repo)
+[0.367s]     # uncomment the line when this package is not in a git repo
+[0.367s]     #set(ament_cmake_cpplint_FOUND TRUE)
+[0.367s]     ament_lint_auto_find_test_dependencies()
+[0.368s] 
+[0.368s]   endif()
+[0.368s] 
+[0.368s]   
+[0.368s] 
+[0.368s]   
+[0.368s] 
+[0.369s]   ament_package()
+[0.369s] 
+[0.369s]   ament_export_dependencies(rosidl_default_runtime)
+[0.369s] 
+[0.390s]   ".
+[0.390s] 
+[0.390s] 
+[0.407s] -- Configuring incomplete, errors occurred!
+[0.627s] Invoked command in '/home/athens/ros2_athens_ws/build/first_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athens/ros2_athens_ws/install/first_package:/home/athens/ros2_ws/install/stm_visualization_node:/home/athens/ros2_ws/install/stm_setup:/home/athens/ros2_ws/install/stm_serial_node:/home/athens/ros2_ws/install/stm_control_node:/opt/ros/foxy /usr/bin/cmake /home/athens/ros2_athens_ws/src/first_interfaces -DCMAKE_INSTALL_PREFIX=/home/athens/ros2_athens_ws/install/first_interfaces

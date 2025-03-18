@@ -23,7 +23,8 @@ setup(
             'simple_publisher_node = first_package.simple_publisher:main',
             'simple_subscriber_node = first_package.simple_subscriber:main',
             'simple_pubsub_node = first_package.simple_pubsub:main',
-            'custom_message_pubsub = first_package.custom_message_pubsub:main'
+            'custom_message_pubsub = first_package.custom_message_pubsub:main',
+            'first_message_pubsub = first_package.first_message_pubsub:main'
         ],
     },
 )
