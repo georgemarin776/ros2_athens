@@ -1,31 +1,33 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-
+from sensor_msgs.msg import BatteryState
 
 class MinimalPubSub(Node):
     def __init__(self):
-        super().__init__('node_gmarin_pubsub')
+        super().__init__('node_gmarin_pubsub_custom_message')
 
-        self.publisher_ = self.create_publisher(String, 'topic_2', 10)
+        self.publisher_ = self.create_publisher(BatteryState, 'topic_3', 10)
         self.subscription = self.create_subscription(
             String,
-            'topic_1',
+            'topic_3',
             self.listener_callback,
             10
         )
         self.timer = self.create_timer(2, self.timer_callback)
-        self.i = 0
+
+    def _get_random_voltage(self):
+        import random
+        return random.uniform(0.0, 3.3)
 
     def timer_callback(self):
-        msg = String()
-        msg.data = f"gmarin says hello from pubsub! This is message #{self.i}"
+        msg = BatteryState()
+        msg.voltage = self._get_random_voltage()
         self.publisher_.publish(msg)
-        self.get_logger().info(f'Publishing from pubsub: "{msg.data}"')
-        self.i += 1
+        self.get_logger().info(f'Publishing from pubsub_custom_message:\nbattery state: {msg}"')
     
     def listener_callback(self, msg):
-        self.get_logger().info(f'Received in pubsub: "{msg.data}"')
+        self.get_logger().info(f'Received in pubsub_custom_message:\nbattery state: "{msg}"')
 
 
 def main(args=None):
