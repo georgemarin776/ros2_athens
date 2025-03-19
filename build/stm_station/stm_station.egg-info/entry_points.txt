@@ -1,0 +1,3 @@
+[console_scripts]
+stm_serial_node_pub = stm_station.stm_serial_node_pub:main
+
