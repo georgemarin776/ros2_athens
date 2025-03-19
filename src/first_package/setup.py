@@ -24,7 +24,8 @@ setup(
             'simple_subscriber_node = first_package.simple_subscriber:main',
             'simple_pubsub_node = first_package.simple_pubsub:main',
             'custom_message_pubsub = first_package.custom_message_pubsub:main',
-            'first_message_pubsub = first_package.first_message_pubsub:main'
+            'first_message_pubsub = first_package.first_message_pubsub:main',
+            'simple_service = first_package.simple_service:main',
         ],
     },
 )

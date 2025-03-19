@@ -20,12 +20,17 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(ament_cmake REQUIRED)
 find_package(std_msgs REQUIRED)
 
+set(srv_files
+  "srv/AddTwoInts.srv"
+)
+
 set(msg_files
   "msg/FirstMessage.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
+  ${srv_files}
 )
 
 ament_export_dependencies(rosidl_default_runtime)
