@@ -23,6 +23,8 @@ setup(
             'stm_serial_node_pub = stm_station.stm_serial_node_pub:main',
             'stm_serial_node_pub_sub = stm_station.stm_serial_node_pub_sub:main',
             'stm_serial_node_ctrl_pub = stm_station.stm_serial_node_ctrl_pub:main',
+            'stm_serial_node_ctrl_pub_custom = stm_station.stm_serial_node_ctrl_pub_custom:main',
+            'stm_serial_node_pub_sub_custom = stm_station.stm_serial_node_pub_sub_custom:main'
         ],
     },
 )
