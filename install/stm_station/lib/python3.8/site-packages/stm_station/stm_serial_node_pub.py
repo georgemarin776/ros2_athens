@@ -14,7 +14,7 @@ class SerialPublisherNode(Node):
         """
         Initialize the SerialPublisherNode with a publisher and serial interface.
         """
-        super().__init__('stm_serial_node')
+        super().__init__('stm_serial_node_pub')
 
         # 3. TODO: Get Serial Configuration Values 
         self.port = '/dev/ttyACM0'  # Serial port name

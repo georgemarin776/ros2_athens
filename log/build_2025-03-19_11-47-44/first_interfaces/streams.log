@@ -1,0 +1,115 @@
+[0.045s] Invoking command in '/home/athens/ros2_athens_ws/build/first_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athens/ros2_athens_ws/install/stm_station:/home/athens/ros2_athens_ws/install/first_package:/home/athens/ros2_ws/install/stm_visualization_node:/home/athens/ros2_ws/install/stm_setup:/home/athens/ros2_ws/install/stm_serial_node:/home/athens/ros2_ws/install/stm_control_node:/opt/ros/foxy /usr/bin/cmake --build /home/athens/ros2_athens_ws/build/first_interfaces -- -j6 -l6
+[0.275s] [  3%] Built target first_interfaces__cpp
+[0.278s] [ 12%] Built target first_interfaces__rosidl_generator_c
+[0.279s] [ 29%] Built target first_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.285s] [ 32%] Built target first_interfaces__rosidl_typesupport_introspection_cpp
+[0.285s] [ 41%] Built target first_interfaces__rosidl_typesupport_c
+[0.285s] [ 51%] Built target first_interfaces__rosidl_typesupport_introspection_c
+[0.285s] [ 61%] Built target first_interfaces__rosidl_typesupport_cpp
+[0.285s] [ 70%] Built target first_interfaces__rosidl_typesupport_fastrtps_c
+[0.285s] [ 70%] Built target first_interfaces
+[0.286s] [ 74%] Built target first_interfaces__py
+[0.286s] [ 80%] Built target first_interfaces__python
+[0.296s] [ 87%] Built target first_interfaces__rosidl_typesupport_c__pyext
+[0.297s] [ 93%] Built target first_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.297s] [100%] Built target first_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.500s] Invoked command in '/home/athens/ros2_athens_ws/build/first_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athens/ros2_athens_ws/install/stm_station:/home/athens/ros2_athens_ws/install/first_package:/home/athens/ros2_ws/install/stm_visualization_node:/home/athens/ros2_ws/install/stm_setup:/home/athens/ros2_ws/install/stm_serial_node:/home/athens/ros2_ws/install/stm_control_node:/opt/ros/foxy /usr/bin/cmake --build /home/athens/ros2_athens_ws/build/first_interfaces -- -j6 -l6
+[0.662s] Invoking command in '/home/athens/ros2_athens_ws/build/first_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athens/ros2_athens_ws/install/stm_station:/home/athens/ros2_athens_ws/install/first_package:/home/athens/ros2_ws/install/stm_visualization_node:/home/athens/ros2_ws/install/stm_setup:/home/athens/ros2_ws/install/stm_serial_node:/home/athens/ros2_ws/install/stm_control_node:/opt/ros/foxy /usr/bin/cmake --install /home/athens/ros2_athens_ws/build/first_interfaces
+[0.677s] -- Install configuration: ""
+[0.678s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/ament_index/resource_index/rosidl_interfaces/first_interfaces
+[0.678s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces
+[0.678s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg
+[0.678s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail
+[0.679s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/first_message__functions.h
+[0.679s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/first_message__type_support.h
+[0.679s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/first_message__functions.c
+[0.679s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/first_message__struct.h
+[0.679s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/first_message.h
+[0.679s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.680s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/library_path.sh
+[0.680s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/library_path.dsv
+[0.681s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_generator_c.so
+[0.681s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces
+[0.682s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg
+[0.682s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail
+[0.682s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/first_message__rosidl_typesupport_fastrtps_c.h
+[0.683s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.683s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.684s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces
+[0.684s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg
+[0.684s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail
+[0.684s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/dds_fastrtps
+[0.684s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/first_message__rosidl_typesupport_fastrtps_cpp.hpp
+[0.684s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.684s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.685s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces
+[0.685s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg
+[0.685s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail
+[0.686s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/first_message__rosidl_typesupport_introspection_c.h
+[0.686s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/first_message__type_support.c
+[0.686s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.686s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_c.so
+[0.687s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_c.so
+[0.687s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces
+[0.687s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg
+[0.688s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail
+[0.688s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/first_message__builder.hpp
+[0.688s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/first_message__struct.hpp
+[0.688s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/first_message__type_support.hpp
+[0.689s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/first_message__traits.hpp
+[0.689s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.689s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/first_message.hpp
+[0.689s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces
+[0.689s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg
+[0.689s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail
+[0.690s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/first_message__rosidl_typesupport_introspection_cpp.hpp
+[0.690s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/first_message__type_support.cpp
+[0.690s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.691s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_cpp.so
+[0.691s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/pythonpath.sh
+[0.691s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/pythonpath.dsv
+[0.692s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/__init__.py
+[0.747s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/msg
+[0.747s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/msg/_first_message.py
+[0.747s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/msg/_first_message_s.c
+[0.747s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/msg/__init__.py
+[0.749s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.751s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.752s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.753s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__python.so
+[0.753s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/msg/FirstMessage.idl
+[0.753s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/msg/FirstMessage.msg
+[0.753s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/ament_index/resource_index/package_run_dependencies/first_interfaces
+[0.753s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/ament_index/resource_index/parent_prefix_path/first_interfaces
+[0.754s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/ament_prefix_path.sh
+[0.754s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/ament_prefix_path.dsv
+[0.755s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/path.sh
+[0.755s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/path.dsv
+[0.756s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/local_setup.bash
+[0.756s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/local_setup.sh
+[0.756s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/local_setup.zsh
+[0.756s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/local_setup.dsv
+[0.756s] -- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/package.dsv
+[0.757s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/ament_index/resource_index/packages/first_interfaces
+[0.758s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_generator_cExport.cmake
+[0.758s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.758s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.759s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.760s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cExport.cmake
+[0.760s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.760s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_generator_cppExport.cmake
+[0.761s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.761s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.761s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cppExport.cmake
+[0.761s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.762s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.762s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.762s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.763s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.763s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.763s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.763s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.763s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfacesConfig.cmake
+[0.763s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfacesConfig-version.cmake
+[0.763s] -- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/package.xml
+[0.776s] Invoked command in '/home/athens/ros2_athens_ws/build/first_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athens/ros2_athens_ws/install/stm_station:/home/athens/ros2_athens_ws/install/first_package:/home/athens/ros2_ws/install/stm_visualization_node:/home/athens/ros2_ws/install/stm_setup:/home/athens/ros2_ws/install/stm_serial_node:/home/athens/ros2_ws/install/stm_control_node:/opt/ros/foxy /usr/bin/cmake --install /home/athens/ros2_athens_ws/build/first_interfaces

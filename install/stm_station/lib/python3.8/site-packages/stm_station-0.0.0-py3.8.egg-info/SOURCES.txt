@@ -10,7 +10,9 @@ setup.py
 ../../build/stm_station/stm_station.egg-info/zip-safe
 resource/stm_station
 stm_station/__init__.py
+stm_station/stm_serial_node_ctrl_pub.py
 stm_station/stm_serial_node_pub.py
+stm_station/stm_serial_node_pub_sub.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
